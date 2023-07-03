@@ -51,4 +51,4 @@
 - PRODUCTCODE 뿐만 아니라 LINE 별로 분류해서 학습
   
 ## Conclusion
-Public score와 Private score의 큰 차이는 cross-validation을 하지 않은 것으로 사료됨.
+Public score와 Private score의 큰 차이의 원인은 overfitting으로 cross-validation을 하지않아 그런 것으로 사료됨.
