@@ -5,7 +5,7 @@
 - 결과: Public 5th, Private 135th
 
 ## Data Preprocessing
-#### PRODUCT_CODE별 데이터 분리
+#### 1. PRODUCT_CODE별 데이터 분리
 - 과정
   - A_31, O_31, T_31 별 결측치 확인
   - 결측치를 가진 열이 코드별 상이
@@ -14,14 +14,14 @@
 - 결론
   - A_31과 O_31, T_31 2가지 모델을 나누어 구성
     
-#### A_31 Preprocessing
+#### 2. A_31 Preprocessing
 - 과정
   - train.csv에서 PRODUCT_CODE == "A_31"인 값 사용
   - 결측치 유지 및 모든 열 사용
 - Model
   - LightGBM classifier
  
-#### O_31, T_31 Preprocessing
+#### 3. O_31, T_31 Preprocessing
 - 과정
   - train.csv에서 PRODUCT_CODE == "O_31" 또는 "T_31"인 값 사용
   - def seperate_code() : Line별로 데이터를 분리 후 모든 값이 같은 열 제거
