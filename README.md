@@ -37,7 +37,7 @@
 
 #### Y_Quality로 Y_Class 분류
 - Y_Quality가 분류하는 Y_Class의 정확도는 0.99로 매우 정확함
-- 회귀로 Y_Quality를 예측한 후, 예측 결과로 Y_Class를 분류하는 모델
+- 회귀로 Y_Quality를 예측한 후, 예측 결과로 Y_Class를 분류하는 모델링
   
 #### 공정 LINE 종류에 따라 구분해서 학습
 - PRODUCTCODE 뿐만 아니라 LINE 별로 분류해서 학습
