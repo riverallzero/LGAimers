@@ -11,18 +11,18 @@ LG그룹의 청년 교육 프로그램이다. LG AI연구원에서 진행하며 
 <details>
 <summary>Data Preprocessing</summary>
 
-1. PRODUCT_CODE별 데이터 분리
+- PRODUCT_CODE별 데이터 분리
   - A_31, O_31, T_31 별 결측치 확인
   - 결측치를 가진 열이 코드별 상이
   - O_31과 T_31 유사
   - **A_31과 O_31, T_31 2가지 모델을 나누어 구성**
   
-2. A_31 Preprocessing
+- A_31 Preprocessing
   - train.csv에서 PRODUCT_CODE == "A_31"인 값 사용
   - 결측치 유지 및 모든 열 사용
   - LightGBM classifier
  
-3. O_31, T_31 Preprocessing
+- O_31, T_31 Preprocessing
   - train.csv에서 PRODUCT_CODE == "O_31" 또는 "T_31"인 값 사용
   - def seperate_code() : Line별로 데이터를 분리 후 모든 값이 같은 열 제거
   - find_duplicate_col() : Line별로 결측치있는 열을 제거 후 교집합하여 사용할 열 결정 
