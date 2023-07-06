@@ -58,7 +58,7 @@ def find_duplicate_col():
 def make_col():
     col_list = []
     for l, line in enumerate(lines):
-        df = pd.read_csv(f"Input/{line}.csv")
+        df = pd.read_csv(f"LGAimers-2nd/Input/{line}.csv")
 
         X = df[find_duplicate_col()[l]].drop(["Y_Class", "Y_Quality"], axis=1).select_dtypes(exclude=['object'])
 
