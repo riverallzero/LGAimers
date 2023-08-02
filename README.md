@@ -20,10 +20,6 @@ LG그룹의 청년 교육 프로그램이다. LG AI연구원에서 진행하며 
 - find_duplicate_col() : Line별로 결측치있는 열을 제거 후 교집합하여 사용할 열 결정 
 - Lidge classifier
 
-### Val Result(acc)
-- A_31 (0.747)
-- O_31 & T_31 (0.810)
-
 ### Conclusion
 Public score와 Private score의 큰 차이의 원인은 overfitting으로 <strong>cross-validation</strong>을 하지않아 그런 것으로 사료됨.
 
