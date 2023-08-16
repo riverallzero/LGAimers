@@ -18,3 +18,9 @@ Public score와 Private score의 큰 차이의 원인은 overfitting으로 <stro
 - 주제: 온라인 채널 제품 판매량 예측 AI 온라인 해커톤
 - 기간: 2023.08.01~2023.08.28
 - 결과: 
+
+### Model
+Time Series Forecasting - LSTM
+
+### Conclusion
+
