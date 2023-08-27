@@ -17,10 +17,10 @@ Public score와 Private score의 큰 차이의 원인은 overfitting으로 **cro
 ## LG Aimers 3기
 - 주제: 온라인 채널 제품 판매량 예측 AI 온라인 해커톤
 - 기간: 2023.08.01~2023.08.28
-- 결과: 
+- 결과: Public , Private
 
 ### Model
-Time Series Forecasting - LSTM
+LSTM
 
 ### Conclusion
 시계열 예측 모델은 다양한 수학적 지식이 필요한데 이에 대해 잘 이해하지 못했고, **일별 판매량**만 가지고 **LSTM**으로 기본 예측만 수행해 그런 것으로 사료됨.
