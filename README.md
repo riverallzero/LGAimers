@@ -9,7 +9,7 @@ LG그룹의 청년 교육 프로그램이다. LG AI연구원에서 진행하며 
 - 결과: Public 5th, Private 135th
 
 ### Model
-LightGBM classifier & Lidge classifier
+LightGBM classifier & Lidge classifier [[model.py]](https://github.com/riverallzero/LGAimers/blob/main/LGAimers-2/model.py)
 
 ### Conclusion
 Public score와 Private score의 큰 차이의 원인은 overfitting으로 **cross-validation**을 하지않아 그런 것으로 사료됨.
@@ -20,7 +20,7 @@ Public score와 Private score의 큰 차이의 원인은 overfitting으로 **cro
 - 결과: Public , Private
 
 ### Model
-LSTM
+LSTM [[model.py]](https://github.com/riverallzero/LGAimers/blob/main/LGAimers-3/model.py)
 
 ### Conclusion
 시계열 예측 모델은 다양한 수학적 지식이 필요한데 이에 대해 잘 이해하지 못했고, **일별 판매량**만 가지고 **LSTM**으로 기본 예측만 수행해 성능 향상이 이루어지지 않음.
