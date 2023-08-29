@@ -17,7 +17,7 @@ Public score와 Private score의 큰 차이의 원인은 overfitting으로 **cro
 ## LG Aimers 3기
 - 주제: 온라인 채널 제품 판매량 예측 AI 온라인 해커톤
 - 기간: 2023.08.01~2023.08.28
-- 결과: Public , Private
+- 결과: Public 194th, Private 133th
 
 ### Model
 LSTM [[model.py]](https://github.com/riverallzero/LGAimers/blob/main/LGAimers-3/model.py)
