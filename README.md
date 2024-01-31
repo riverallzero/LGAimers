@@ -12,7 +12,7 @@ LG그룹의 청년 교육 프로그램이다. LG AI연구원에서 진행하며 
 LightGBM classifier & Lidge classifier [[model.py]](https://github.com/riverallzero/LGAimers/blob/main/LGAimers-2/model.py)
 
 ### Conclusion
-Public score와 Private score의 큰 차이의 원인은 overfitting으로 **cross-validation**을 하지않아 그런 것으로 사료됨.
+Public score와 Private score의 큰 차이의 원인은 리더보드용 평가 데이터에 대한 overfitting으로 **cross-validation**을 하지않아 그런 것으로 사료됨.
 
 ## LG Aimers 3기
 - 주제: [온라인 채널 제품 판매량 예측 AI 온라인 해커톤](https://dacon.io/competitions/official/236129/overview/description)
